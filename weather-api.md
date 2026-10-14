@@ -22,3 +22,16 @@ The API sends back the current weather. Here are some of the values:
 - `winddirection`: The compass direction the wind is coming from, measured in degrees (0-360°). Example: 236°, meaning the wind is coming from roughly the southwest.
 - `is_day`: Indicates daylight status. A value of 1 means daytime, while a value of 0 means nighttime. Example: 0 indicates night.
 - `weathercode`: A numerical code representing current conditions like clear, cloudy, or rainy. Example: 3 translates to overcast.
+
+## Handle errors
+
+If the API returns an error instead of weather data, it usually means there is a typo in your request. The error looks like this: 
+
+```json
+{"error":true,"reason":"Not Found"}
+```
+
+Quick fixes to try: 
+
+- Check your spelling: Look closely at the web address. For example, make sure `forecast` isn't accidentially misspelled as `foreast`.
+- Verify your formatting: Ensure each setting in your request is properly separated by an ampersand (`&`). 
