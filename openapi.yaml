@@ -1,0 +1,22 @@
+openapi: 3.0.3
+info:
+  title: Open-Meteo Weather API
+  description: A free weather API for non-commercial use.
+  version: 1.0.0
+paths:
+  /v1/forecast:
+    get:
+      summary: Get the current weather for a location
+      parameters:
+        - name: latitude
+          in: query
+          required: true
+          description: The latitude of the location, in decimal degrees.
+          schema:
+            type: number
+        - name: longitude
+          in: query
+          required: true 
+          description: The longitude of the location, in decimal degrees.
+          schema:
+            type: number 
