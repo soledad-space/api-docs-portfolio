@@ -19,4 +19,7 @@ paths:
           required: true 
           description: The longitude of the location, in decimal degrees.
           schema:
-            type: number 
+            type: number
+      responses:
+        '200':
+          description: The current weather for the location.
