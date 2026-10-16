@@ -5,3 +5,4 @@ Technical writing samples by Soledad.
 ## Samples
 
 - [Open-Meteo Weather API: Quickstart](weather-api.md)
+- [Open-Meteo Weather API: OpenAPI description](openapi.yaml)
