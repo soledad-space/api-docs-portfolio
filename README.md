@@ -1,6 +1,6 @@
 # API Documentation Portfolio
 
-Technical writing samples by Soledad.
+Hi! It's Soledad here. I'm a technical writer who documents APIs. I write clear quickstart guides and OpenAPI descriptions that help developers use an API correctly. Check out my samples below:
 
 ## Samples
 
