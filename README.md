@@ -6,3 +6,5 @@ Hi! It's Soledad here. I'm a technical writer who documents APIs. I write clear 
 
 - [Open-Meteo Weather API: Quickstart](weather-api.md)
 - [Open-Meteo Weather API: OpenAPI description](openapi.yaml)
+- [JSONPlaceholder API:Get a Post](jsonplaceholder-api.md) 
+
